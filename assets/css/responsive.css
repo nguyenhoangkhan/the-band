@@ -1,0 +1,99 @@
+@media screen and (min-width: 740px) and (max-width: 1024px) {
+  .contact__list {
+    width: 768px;
+    max-width: 100%;
+    padding: 80px 16px;
+  }
+  .Showtimes {
+    padding: 0 16px;
+  }
+  .palace-list {
+    width: 768px;
+    max-width: 100%;
+  }
+  .the-band__list {
+    width: 768px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 740px) {
+  #header {
+    position: relative;
+  }
+  #welcome {
+    background-size: cover;
+    height: 300px;
+  }
+  #the-band {
+    max-width: 100%;
+  }
+  .the-band__members-list {
+    flex-direction: column;
+  }
+  .the-band__member {
+    width: 100%;
+  }
+  .Showtimes {
+    padding: 0 8px;
+  }
+  .the-band__list {
+    padding: 40px 0;
+  }
+  .palace-list {
+    padding: 0 8px;
+    flex-direction: column;
+    width: auto;
+  }
+  .palace__items {
+    margin: 8px 0;
+    width: 100%;
+  }
+  .contact__items {
+    flex-direction: column;
+  }
+  .contact__list {
+    padding: 30px 0;
+  }
+  .contact__items-infor {
+    width: 100%;
+    margin: 5px 0 12px 0;
+    text-align: center;
+  }
+  .contact__items-input {
+    width: 100%;
+    padding: 8px;
+  }
+  .footer-item {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .footer-item span {
+    line-height: 30px;
+  }
+  .header__items {
+    display: none;
+    line-height: 39px;
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .header__items-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  .header__subnav {
+    top: 30px;
+    left: 85px;
+  }
+  .ti-search {
+    display: none;
+  }
+  .header-bars {
+    display: block;
+  }
+}
