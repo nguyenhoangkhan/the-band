@@ -97,7 +97,7 @@ ul {
 #welcome {
   position: relative;
   padding-top: 50%;
-  background-image: url(/assets/css/img/anhtieude.jpg);
+  background-image: url(./assets/css/img/anhtieude.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
